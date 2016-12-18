@@ -99,6 +99,7 @@ class LinkStr{
 public class LinkStrDemo {
     public static void main(String[] args){
         String s = "Hello World!";
+        String s2 = "Hello World again !";
         char[] charArray = s.toCharArray();
         LinkStr ls= new LinkStr(charArray);
         System.out.println("源字符串为：" + s);
